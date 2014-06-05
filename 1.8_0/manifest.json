@@ -1,0 +1,31 @@
+{
+   "manifest_version": 2,
+   "background": {
+      "scripts": [ "extension.js" ]
+   },
+   "browser_action": {
+      "default_icon": "19.png",
+      "default_title": "Animal Crossing Music"
+   },
+   "description": "Play Animal Crossing's smooth background music in real-time throughout your day.",
+   "icons": {
+      "128": "128.png",
+      "19": "19.png",
+      "32": "32.png",
+      "48": "48.png"
+   }
+"key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC8kBbYbKTKEgR1wNw2Ox8COK7xw2jn7ce6eqS4Yv7v6eq/JA7q9SzEhm/sYdV3R+EkH2Ar7AZ2ZFy3T8Pgrok3JK5EObqVxC84o9gq8LS+7A+XvY8neRcpsA4lxPe2IGAOX8ONzGX7lYWQFYu5uvzNIamzmS3K1bihkjrlZb/biwIDAQAB",
+   "name": "Animal Crossing Music",
+   "options_page": "options.html",
+   "permissions": ["notifications", "storage"],
+   "update_url": "http://clients2.google.com/service/update2/crx",
+   "version": "1.8.4",
+"web_accessible_resources": "clock.gif"
+}
+
+
+
+// 1.8_2* Changed manifest_version to 2.
+// 1.8_4* Added in 'clock.gif' as a web_accessable_resource for notification display.
+//
+//
